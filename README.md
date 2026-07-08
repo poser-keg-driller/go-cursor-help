@@ -68,13 +68,13 @@ Store homepage (more packages): https://pay.ldxp.cn/shop/yuaotian
 **macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
+curl -fsSL https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
 **Linux**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash 
+curl -fsSL https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash 
 ```
 
 > **Note for Linux users:** The script attempts to find your Cursor installation by checking common paths (`/usr/bin`, `/usr/local/bin`, `$HOME/.local/bin`, `/opt/cursor`, `/snap/bin`), using the `which cursor` command, and searching within `/usr`, `/opt`, and `$HOME/.local`. If Cursor is installed elsewhere or not found via these methods, the script may fail. Ensure Cursor is accessible via one of these standard locations or methods.
@@ -82,13 +82,13 @@ curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/
 **Windows**
 
 ```powershell
-irm https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 **Tip (Windows):** If you suspect a cached old script (mirror/proxy cache), append a timestamp query parameter to bypass cache:
 
 ```powershell
-irm "https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1?$(Get-Date -Format yyyyMMddHHmmss)" | iex
+irm "https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1?$(Get-Date -Format yyyyMMddHHmmss)" | iex
 ```
 
 
@@ -102,25 +102,25 @@ irm "https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master
 **macOS**
 
 ```bash
-curl -fsSL https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
+curl -fsSL https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
 **Linux**
 
 ```bash
-curl -fsSL https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash
+curl -fsSL https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash
 ```
 
 **Windows**
 
 ```powershell
-irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 **Tip (Windows):** If the mirror caches old content, append `?$(Get-Date -Format yyyyMMddHHmmss)` to the URL:
 
 ```powershell
-irm "https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1?$(Get-Date -Format yyyyMMddHHmmss)" | iex
+irm "https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1?$(Get-Date -Format yyyyMMddHHmmss)" | iex
 ```
 
 </details>
@@ -153,12 +153,12 @@ irm "https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/r
    or type in the opened window: Start-Process pwsh -Verb RunAs
 4. Enter the reset script in the administrator terminal:
 
-irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 For the enhanced version:
 ```powershell
-irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 ##### Method 3: Using Search
@@ -169,12 +169,12 @@ irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/re
 
 Enter the reset script in the administrator terminal:
 ```powershell
-irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 For the enhanced version:
 ```powershell
-irm https://wget.la/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://wget.la/https://raw.githubusercontent.com/poser-keg-driller/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 ### 🔧 PowerShell Installation Guide 
@@ -216,7 +216,7 @@ That's it! The script will:
 
 ### 📦 Manual Installation
 
-> Download the appropriate file for your system from [releases](https://github.com/yuaotian/go-cursor-help/releases/latest)
+> Download the appropriate file for your system from [releases](https://github.com/poser-keg-driller/go-cursor-help/releases/latest)
 
 <details>
 <summary>Windows Packages</summary>
@@ -391,7 +391,7 @@ ETC: 0xa2745f4CD5d32310AC01694ABDB28bA32D125a6b
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yuaotian/go-cursor-help&type=Date)](https://star-history.com/#yuaotian/go-cursor-help&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=poser-keg-driller/go-cursor-help&type=Date)](https://star-history.com/#yuaotian/go-cursor-help&Date)
 
 ![Repobeats analytics image](https://repobeats.axiom.co/api/embed/ddaa9df9a94b0029ec3fad399e1c1c4e75755477.svg "Repobeats analytics image")
 
